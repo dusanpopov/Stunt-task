@@ -49,6 +49,47 @@ body{
     letter-spacing: 1px;
 }
 
+img{
+    width: 100%;
+}
 
-/* MAIN SECTION */
 
+/* Content */
+
+.content{
+    background-color: rgb(111, 111, 255);
+    max-width: 1200px;
+   
+    margin: 0 auto;
+}
+
+.content__paragraph{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: black;
+    padding: 40px 15px;
+    letter-spacing: 1px;
+    
+}
+
+/* Content grid */
+
+.content__grid{
+    padding: 20px 10px;
+    max-width: 1240px;
+
+    display: grid;
+    grid-template-columns: 320px auto 480px;
+    grid-gap: 35px;
+}
+
+.content__item-3{
+   background: url("../images/step-1.jpg") center center no-repeat;
+   background-size: cover;
+   height: 480px;
+}
+
+footer{
+    background-color: yellow;
+}
